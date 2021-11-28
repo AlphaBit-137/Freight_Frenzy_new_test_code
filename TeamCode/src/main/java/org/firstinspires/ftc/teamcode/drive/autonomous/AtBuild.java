@@ -33,7 +33,7 @@ public class AtBuild extends LinearOpMode {
     public DcMotor OuttakeMotor = null;
     public CRServo PushServo = null;
     public DcMotor intakeWing = null;
-    ProjectDUCK numberRing = new ProjectDUCK();
+    BlockDetection numberRing = new BlockDetection();
 
     public int caz;
 
